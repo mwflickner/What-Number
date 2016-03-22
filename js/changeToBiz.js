@@ -31,5 +31,9 @@
     $(window).load(function(){
         biz();
     });
+
+    $("body").change(function() {
+      alert( "Handler for .change() called." );
+    });
         
 })();
