@@ -22,7 +22,7 @@
         ],
         
         "js": [
-            "content.js"
+            "changeToBiz.js"
         ],
         "run_at": "document_end"
     }
