@@ -8,10 +8,10 @@ for (var i = 0; i < elements.length; i++) {
 
         if (node.nodeType === 3) {
             var text = node.nodeValue;
-            var replacedText = text.replace('5', 'biz');
+            var replaced5 = text.replace('5', 'biz');
 
-            if (replacedText !== text) {
-                element.replaceChild(document.createTextNode(replacedText), node);
+            if (replaced5 !== text) {
+                element.replaceChild(document.createTextNode(replaced5), node);
             }
         }
     }
