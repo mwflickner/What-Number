@@ -22,7 +22,8 @@
         ],
         
         "js": [
-            "changeToBiz.js"
+            "js/jquery-2.2.2.min.js",
+            "js/changeToBiz.js"
         ],
         "run_at": "document_end"
     }
